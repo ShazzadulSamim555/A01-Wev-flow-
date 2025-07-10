@@ -1,0 +1,38 @@
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+header{
+    height: 100vh;
+    background-image: url(../Assets/Hero-bg.png);
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(59, 59, 158);
+}
+.btn-primary{
+    background-color: rgb(59, 59, 158);
+     color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.heading-container{
+    display: flex;
+    align-items: center;
+}
+.heading-div{
+    max-width: 60vw;;
+}
+.heading{
+    font-size: 70px;
+    font-weight: 700;;
+}
