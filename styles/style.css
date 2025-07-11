@@ -5,11 +5,13 @@
 header{
     height: 100vh;
     background-image: url(../Assets/Hero-bg.png);
+    
 }
 .navbar{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    padding:30px 0px;
 }
 .logo{
     font-size: 40px;
@@ -25,14 +27,72 @@ header{
     font-size: 15px;
     font-weight: 500;
 }
-.heading-container{
+.hero-content{
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .heading-div{
-    max-width: 60vw;;
+    max-width: 60vw;
 }
 .heading{
     font-size: 70px;
     font-weight: 700;;
+}
+
+/* action section */
+.action-title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.action-des{
+    font-size: 18px;
+    color:rgb(63, 62, 62);
+}
+
+/* Users section */
+.productive-section{
+    background-color: rgb(179, 179, 238);
+    padding:70px 150px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-data{
+    font-size:70px;
+    font-weight: 600;
+    color:rgb(60, 60, 110);
+}
+
+/* Card section */
+.card-container{
+    display: flex;
+    text-align: left;
+    padding:20px;
+    gap:20px;
+}
+.user-div{
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.name{
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+}
+.date{
+    font-size: 12px;
+    color:rgb(105, 103, 103);
 }
